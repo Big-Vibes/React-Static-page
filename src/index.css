@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Inter, sans-serif;
+  background: #27292c;
+  color: white;
+  margin: 0;
+  text-decoration: none;
+  
+}
+
+
+
+.header {
+  padding: 20px 25px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #21222A;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list a{
+  text-decoration: none;
+}
+
+
+.nav-list-item {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  color: white;
+  
+}
+
+.nav-logo {
+  width: 55px;
+}
+main {
+  padding: 60px 30px;
+  background-image: url(/src/Image/react-logo-half.png) ;
+  background-repeat: no-repeat;
+  background-position: right 70%;
+}
+
+main > h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+.List{
+  margin-top: 46px;
+  max-width: 400px;
+}
+.List > li{
+  padding-block: 20px;
+  line-height: 19px;
+}
+footer{
+  margin: 10px;
+  padding: 60px 30px;
+}
+
+.TopHeader{
+  display: flex;
+  height: 55px;
+  align-items: center;
+  justify-content: center;
+  background-color: #F55A5A;
+  color: white;
+}
+
+.TopHeader img{
+  margin-right: 7px;
+  width: 24px;
+}
+.TopHeader h1{
+  font-family: Inter;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+article.BodyEntry{
+  display: flex;
+  padding: 30px;
+}
+.BodyMarker{
+  width: 7px;
+  margin-right: 4px;
+}
+.BodyImagecContainer{
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.BodyImage{
+  height:  100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.BodyCountry{
+  text-transform: uppercase;
+    font-size: 0.7rem;
+    margin-right: 12px;
+}
+.BodyInfo a{
+  color: white;
+  font-size: 0.7rem;
+}
+.BodyInfo a:visited{
+  color: #918E9B;
+}
+.BodyTitle{
+  margin-top: 7px;
+  margin-bottom: 17px;
+}
+.BodyDate{
+  font-weight: bold;
+}
+.BodyText{
+  line-height: 1.5;
+  font-size: 0.8rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+/* This is for Mr Winkerston*/
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+ 
+}
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 10px;
+}
+
+.contact-card {
+  flex-basis: 225px;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.contact-card > img {
+  width: 100%;
+  height: auto;
+  align-self: center;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #21222A;
+}
+
+.info-group {
+  display: flex;
+  align-items: center;
+}
+
+.info-group > img {
+  height: 11px;
+  margin-right: 8px;
+}
+
+.info-group > p {
+  margin-block: 3px;
+  font-size: 12px;
+  color: #2B283A;
+}
+
+
+
+
+/* TEST CSS FOR FORM */
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding-inline: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 4px;
+}
+
+input[type="email"], input[type="password"] {
+  border-radius: 100px;
+  border: 1px solid #0D9488;
+  height: 2rem;
+  text-indent: 10px;
+  margin-bottom: 20px;
+}
+
+textarea {
+  margin-bottom: 20px;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  margin-right: 10px;
+}
+
+fieldset {
+  border: 1px solid #918E9B;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  border-radius: 100px;
+  border: 1px solid #0D9488;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+  background-color: #115E59;
+  border-color: #042F2E;
+  color: white;
+}
+
+
+/* Count BODY */
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.counter {
+  display: flex;
+  align-items: flex-end;
+  align-self: center;
+  margin-top: 40px;
+}
+
+.counter > button {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background-color: #737373;
+  color: #D9D9D9;
+  font-size: 1.5rem;
+}
+
+.counter > button:hover {
+  background-color: #404040;
+  color: #D9D9D9;
+}
+
+.count {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #262626;
+  margin-block: 0 10px;
+  font-size: 2rem;
+}
+
+.plus {
+  margin-left: -20px;
+}
+
+.minus {
+  margin-right: -20px;
+  z-index: 1;
+}
+
+
+
+/* TEST PADS CSS */
+
+.pad-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+}
+
+button {
+  height: 100px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.1;
+  
+}
+button.on {
+  opacity: 1;
+}
+
+button.all-off {
+  all: unset;
+  color: white;
+  background-color: #B91C1C;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+/* To Update State Object in React/ Update Card */
+.TestCard {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0C4A6E;
+  font-family: "Inter", sans-serif;
+}
+
+.card {
+  background-color: white;
+  width: 200px;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  height: 450px;
+  border-color: #0d0725da;
+  border-width: 5px;
+}
+
+.card .avatar {
+  width: 100%;
+  padding: 10%;
+  padding-bottom: 0;
+}
+
+.card .name {
+  margin-block: 13px;
+  color: #333333;
+}
+
+.card .info {
+  padding: 10px;
+}
+
+.card .favorite {
+  width: 25px;
+  cursor: pointer;
+}
+
+.card .contact {
+  font-size: 0.75rem;
+  color: gray;
+  margin-block: 7px;
+}
+
+.card .favorite-button {
+  border: none;
+  background: transparent;
+}
+
+.card .favorite-button:active {
+  transform: none;
+  box-shadow: none;
+} 
