@@ -1,5 +1,5 @@
 import React from "react"
-export default function ConditonalRendering(props){
+export default function ConditonalRendering(prop){
     const [isShown,setIsShown]= React.useState(false)
     function Toggle() {
         setIsShown(prevShow => !prevShow)
@@ -9,8 +9,8 @@ export default function ConditonalRendering(props){
     return(
         <>
         
-        <p className="setup">Setup: {props.setup}</p>
-        {isShown  ? <p className="punchline"> Punchline:{props.punchline}</p> : null}
+        <p className="setup">Setup: {prop.setup}</p>
+        {isShown  ? <p className="punchline"> Punchline:{prop.punchline}</p> : null}
         <button onClick={Toggle}> {isShown? "Hide" : "show"} Punchline </button>
         <hr />
         </>

@@ -1,8 +1,8 @@
-export default function CountMe(props){
+export default function CountMe(prop){
     return (
         <h2 
         className="count">
-            {props.number}</h2>
+            {prop.number}</h2>
 
     )
 }

@@ -7,7 +7,8 @@ export default function CondtRd(){
     //     {unreadMess.length > 0 && <h1>You have {unreadMess.length} unread Messages</h1>}
     //     </div> 
     // )
-    const [message, setMessage] = React.useState(["a", "b"])
+    const message = React.useState(["a", "b"])
+
     function DisText(){
         if (message.length === 0){
             return "You're all caught up!"

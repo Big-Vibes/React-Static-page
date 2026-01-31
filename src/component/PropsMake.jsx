@@ -1,5 +1,5 @@
-export default function PropsMake(props){
-    console.log (props)
+export default function PropsMake(prop){
+    console.log (prop)
     // const hours = new Date().getHours()
     // let timeOfDay
   
@@ -16,34 +16,35 @@ export default function PropsMake(props){
     // return (
     //   <h1>Good {timeOfDay}</h1>
     // )
+
     return(
         <>
         <div className="contacts">
         <article className="contact-card">
             <img 
-                src={props.img}
+                src={prop.img}
                 alt="Photo of Mr. Whiskerson"
             />
-            <h3> {props.name} </h3>
+            <h3> {prop.name} </h3>
             <div className="info-group">
                 <img 
                     src="src\Image\phone-icon.png" 
                     alt="phone icon" 
                 />
-                <p>{props.phone}</p>
+                <p>{prop.phone}</p>
             </div>
             <div className="info-group">
                     <img 
                         src="src\Image\mail-icon.png" 
                         alt="mail icon"
                     />
-                    <p>{props.email}</p>
+                    <p>{prop.email}</p>
                 </div>            
             </article>
             </div>
             {/* <div className="new">
-            {props.Setup && <p className="setup">Setup: {props.Setup}</p>}
-            <p className="punchline">Punchline: {props.Punchline}</p>
+            {prop.Setup && <p className="setup">Setup: {prop.Setup}</p>}
+            <p className="punchline">Punchline: {prop.Punchline}</p>
             <hr />   
             </div> */}
             </>

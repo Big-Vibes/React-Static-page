@@ -1,9 +1,9 @@
-export default function TestPad(props){
+export default function TestPad(prop){
     return (
         <button
-        style={{backgroundColor : props.color}}
-        className={ props.on ? "on" : undefined}
-        onClick={()=> props.HandleTurn(props.id)}        
+        style={{backgroundColor : prop.color}}
+        className={ prop.on ? "on" : undefined}
+        onClick={()=> prop.HandleTurn(prop.id)}        
         >
         </button>
     )
